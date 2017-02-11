@@ -1,0 +1,25 @@
+{
+  "intents": [
+    {
+      "intent": "GetAnswerIntent",
+      "slots": [
+        {
+          "name": "NumOne",
+          "type": "AMAZON.NUMBER"
+        },
+		{
+          "name": "NumTwo",
+          "type": "AMAZON.NUMBER"
+        },
+		{
+          "name": "Operation",
+          "type": "LIST_OF_OPERATIONS"
+        }
+      ]
+    },
+    {"intent": "AMAZON.RepeatIntent"},
+    {"intent": "AMAZON.HelpIntent"},
+    {"intent": "AMAZON.StopIntent"},
+    {"intent": "AMAZON.CancelIntent"}
+  ]
+}

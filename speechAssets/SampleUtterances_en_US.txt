@@ -1,0 +1,3 @@
+GetAnswerIntent what's {NumOne} {Operation} {NumTwo}
+GetAnswerIntent what is {NumOne} {Operation} {NumTwo}
+GetAnswerIntent {NumOne} {Operation} {NumTwo}

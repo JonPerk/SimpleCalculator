@@ -1,0 +1,9 @@
+{
+  "name": "simple-calculator",
+  "version": "1.0.0",
+  "description": "A simple calculator with basic arithmetic functions for Amazon Alexa",
+  "dependencies": {
+    "alexa-sdk": "1.0.5",
+  },
+  "author": "Jon Perkowski"
+}
