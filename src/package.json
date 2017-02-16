@@ -1,9 +1,23 @@
 {
   "name": "simple-calculator",
   "version": "1.0.0",
+	"main": "src/index.js",
   "description": "A simple calculator with basic arithmetic functions for Amazon Alexa",
+  "author": {
+		"name": "Jon Perkowski",
+		"email": "perkowski.jon@gmail.com"
+	},
+	"license": "GPL-3.0",
   "dependencies": {
-    "alexa-sdk": "1.0.5"
+    "alexa-sdk": "1.0.x"
   },
-  "author": "Jon Perkowski"
+	"devDependencies": {
+    "htmlparser2": "3.9.x",
+		"jasmine-node": "1.14.x",
+		"underscore": "1.8.x"
+  },
+	"repository": {
+    "type": "git",
+    "url": "https://github.com/JonPerk/SimpleCalculator/"
+  }
 }
